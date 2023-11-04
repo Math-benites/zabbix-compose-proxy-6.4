@@ -1,4 +1,4 @@
-<h1 align="center">Zabbix - Compose - Proxy 6.0 </h1>
+<h1 align="center">Zabbix - Compose - Proxy 6.4 </h1>
 
 ### Pré-requisitos
 
