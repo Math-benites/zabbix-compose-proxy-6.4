@@ -13,24 +13,25 @@ Antes de começar, você vai precisar ter instalado
 
 ### 🪓 ( Preparando Estrutura )
 
+Criando diretorios
 ```bash
-# Criando diretorios
-$ mkdir -p /opt/app/
+mkdir -p /opt/app/
 ```
+Acessando diretorio
 ```bash
-# Acessando diretorio
-$ cd /opt/app
+cd /opt/app
 ```
+
+Fazendo Git do projeto
 ```bash
-# Fazendo Git do projeto
-$ git clone https://github.com/Math-benites/zabbix-compose-proxy-6.4.git . 
+git clone https://github.com/Math-benites/zabbix-compose-proxy-6.4.git . 
 ```
 
 ### 🔧 ( Altere as Configuracoes para comecar a usar )
 
+Zabbix proxy.config
 ```bash
-# Zabbix proxy.config
-$ nano ./zabbix/env_vars/.env_prx
+nano ./zabbix/env_vars/.env_prx
 ``` 
 
 ZBX_SERVER_HOST= IP DO SERVER ZABBIX
@@ -40,7 +41,7 @@ ZBX_HOSTNAME = NOME PARA SEU PROXY
 ### 🎲 ( Rodando Compose )
 
 ```bash
-$ docker compose up -d
+docker compose up -d
 ``` 
 
 <p float="left">
